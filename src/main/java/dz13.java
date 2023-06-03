@@ -38,7 +38,7 @@ public class dz13 extends BaseClass {
     public void testMessengerSelect() {
         WebElement inputElement = driver.findElement(messengerSelect);
         inputElement.click();
-        inputElement.sendKeys("https://t.me/userid");
+        driver.findElement(By.name("tg")).sendKeys("https://t.me/userid");
     }
     @Test
     public void testCourseSelected() throws InterruptedException{

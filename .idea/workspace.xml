@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2597c58e-807a-468b-b3e7-65271b734498" name="Changes" comment="dz13">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/WEBDRIVERS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/CourseName.java" afterDir="false" />
+    <list default="true" id="2597c58e-807a-468b-b3e7-65271b734498" name="Changes" comment="dz13 upd with Junit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FrontEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestHillel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dz13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz13.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,51 +53,51 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.dz13.testMessengerSelect">
-    <configuration name="dz13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestHillel.showCoachesList">
+    <configuration name="TestHillel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HillelAutomation_WebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="dz13" />
+      <option name="MAIN_CLASS_NAME" value="TestHillel" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dz13.testCourseSelected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHillel.scrollDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HillelAutomation_WebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="dz13" />
-      <option name="METHOD_NAME" value="testCourseSelected" />
+      <option name="MAIN_CLASS_NAME" value="TestHillel" />
+      <option name="METHOD_NAME" value="scrollDown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dz13.testEmailField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHillel.showCoachesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HillelAutomation_WebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="dz13" />
-      <option name="METHOD_NAME" value="testEmailField" />
+      <option name="MAIN_CLASS_NAME" value="TestHillel" />
+      <option name="METHOD_NAME" value="showCoachesList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dz13.testMessengerSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHillel.testCoachesNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HillelAutomation_WebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="dz13" />
-      <option name="METHOD_NAME" value="testMessengerSelect" />
+      <option name="MAIN_CLASS_NAME" value="TestHillel" />
+      <option name="METHOD_NAME" value="testCoachesNames" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dz13.testNameField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHillel.testCoursesSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HillelAutomation_WebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="dz13" />
-      <option name="METHOD_NAME" value="testNameField" />
+      <option name="MAIN_CLASS_NAME" value="TestHillel" />
+      <option name="METHOD_NAME" value="testCoursesSelect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.dz13.testMessengerSelect" />
-        <item itemvalue="JUnit.dz13.testCourseSelected" />
-        <item itemvalue="JUnit.dz13" />
-        <item itemvalue="JUnit.dz13.testNameField" />
-        <item itemvalue="JUnit.dz13.testEmailField" />
+        <item itemvalue="JUnit.TestHillel.showCoachesList" />
+        <item itemvalue="JUnit.TestHillel" />
+        <item itemvalue="JUnit.TestHillel.testCoursesSelect" />
+        <item itemvalue="JUnit.TestHillel.scrollDown" />
+        <item itemvalue="JUnit.TestHillel.testCoachesNames" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684142737944</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dz13 upd with Junit">
+      <created>1684401140806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684401140806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dz13 upd with Junit">
+      <created>1684401254564</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684401254565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dz13" />
-    <option name="LAST_COMMIT_MESSAGE" value="dz13" />
+    <MESSAGE value="dz13 upd with Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz13 upd with Junit" />
   </component>
 </project>
