@@ -58,22 +58,6 @@ public class FrontEndBasic {
         return stringList;
     }
 
-//
-//    public List<String> webElementToString(List<WebElement> elementList){
-//        List<String> stringList = new ArrayList<String>();
-//        for (WebElement element : elementList ) {
-//            stringList.add(element.getText().toString());
-//            System.out.println(element.getText());
-//        }
-//        for(String s : stringList) {
-//            System.out.println("Element of the list into String formate");
-//            System.out.println(s);
-//        }
-//        return stringList;
-//    }
-
-
-
     public static void scrollDown(WebDriver driver, By by) {//метод который скролит до элемента
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
